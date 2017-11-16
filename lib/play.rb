@@ -38,7 +38,7 @@ end
 def play(board)
   i = 1
 if i < 10
-  loop turn(board) do
+  turn(board)
   i += 1
 
 end
