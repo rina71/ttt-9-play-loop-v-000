@@ -36,10 +36,10 @@ def turn(board)
 end
 
 def play(board)
-  i ==  1
-if i < 10
+  counter = 1
+if  counter < 10
   turn(board)
-  i += 1
+  counter += 1
 
 end
 end
