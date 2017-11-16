@@ -36,7 +36,7 @@ def turn(board)
 end
 
 def play(board)
-put turn(board)
-put turn(board)
+puts turn(board)
+puts turn(board)
 
 end
