@@ -35,11 +35,11 @@ def turn(board)
   end
 end
 
-# def play(board)
-#   until turn(board) == false
-# turn(board)
-# if turn(board) == true
-#   break
-# end
-# end
-# end
+def play(board)
+  until turn(board) == false
+turn(board)
+if turn(board) == true
+  break
+end
+end
+end
