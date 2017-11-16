@@ -36,6 +36,9 @@ def turn(board)
 end
 
 def play(board)
-  while turn(board) == true
-puts turn(board).9.times
+  until turn(board) == false
+turn(board)
+if turn(board) == true
+end
+end
 end
