@@ -36,7 +36,8 @@ def turn(board)
 end
 
 def play(board)
-turn(board)
-
-
+loop.turn(board) do
+if valid_move?(board,index) == false
+break
+end
 end
