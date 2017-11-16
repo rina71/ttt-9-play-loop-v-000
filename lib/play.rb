@@ -31,15 +31,19 @@ def turn(board)
     move(board, index)
     display_board(board)
   else
-    play(board)
+    turn(board)
   end
 end
 
 def play(board)
-  until turn(board) == false
 turn(board)
-if turn(board) == true
-  break
-end
+turn(board)
+turn(board)
+turn(board)
+turn(board)
+turn(board)
+turn(board)
+turn(board)
+turn(board)
 end
 end
