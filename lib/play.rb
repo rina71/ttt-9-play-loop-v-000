@@ -41,3 +41,4 @@ if valid_move?(board,index) == false
 break
 end
 end
+end
