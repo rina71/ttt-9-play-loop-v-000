@@ -36,9 +36,10 @@ def turn(board)
 end
 
 def play(board)
-loop.turn(board) do
-if valid_move?(board,index) == false
-break
-end
+  i = 1
+until i < 10
+  turn(board)
+  i += 1
+
 end
 end
