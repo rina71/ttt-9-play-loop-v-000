@@ -38,5 +38,5 @@ end
 def play(board)
   while turn(board) == true
 
-
+end
 end
